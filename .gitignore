@@ -69,3 +69,6 @@ docs/.vercel
 docs/.nitro
 docs/public/og/**
 !docs/public/og/general.png
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
