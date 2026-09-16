@@ -5,7 +5,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "node ./cli.ts"
+    "start": "node init && node ./cli.ts"
   },
   "bin": {
     "build-icons": "./cli.ts"

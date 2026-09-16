@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "react-router build",
+    "build": "node init && react-router build",
     "typecheck": "react-router typegen && tsc --noEmit",
     "test:browser": "vitest run",
     "check": "pnpm build && pnpm typecheck && pnpm test:browser"
